@@ -17,7 +17,7 @@ function saveReview(newReview, reviews) {
   }
 }
 //the includes function determines whether an
-// array includes a vertain value among it entries,
+// array includes a certain value among it entries,
 // returning true or false. The if statement says, "If
 // the array reviews does not contain the new review,
 // then push the new reivew into the array"
