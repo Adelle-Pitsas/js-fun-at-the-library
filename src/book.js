@@ -16,11 +16,7 @@ function saveReview(newReview, reviews) {
     return reviews.push(newReview);
   }
 }
-//the includes function determines whether an
-// array includes a certain value among it entries,
-// returning true or false. The if statement says, "If
-// the array reviews does not contain the new review,
-// then push the new reivew into the array"
+
 
 function calculatePageCount(bookTitle) {
   return bookTitle.length*20
@@ -37,10 +33,6 @@ function writeBook(bookTitle, bookCharacter, genre) {
   return book
 }
 
-// Because we already have information for createTitle and
-// buildMainCharacter, we were just focused on writeBook. I followed
-// the assertion statements to make sure the object returned
-// what we assumed they would
 
 function editBook(book) {
   book.pageCount = book.pageCount * .75
